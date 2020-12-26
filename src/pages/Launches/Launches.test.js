@@ -1,5 +1,5 @@
-import { render, screen } from '@testing-library/react';
 import Launches from './Launches';
+import { render, screen } from '@testing-library/react';
 
 test('Project Setup Works', () => {
   render(<Launches />);

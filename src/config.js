@@ -1,0 +1,1 @@
+export const SPACEX_URI = 'https://api.spacex.land/graphql/'
