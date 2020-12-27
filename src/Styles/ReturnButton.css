@@ -1,0 +1,17 @@
+.arrow-left {
+  width: 34px;
+  filter: invert(1);
+  opacity: 1;
+  transition: 0.1s;
+}
+
+.arrow-left:hover {
+  opacity: 0.75;
+}
+
+.return-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+

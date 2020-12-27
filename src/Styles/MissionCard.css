@@ -1,0 +1,30 @@
+.mission-card {
+  background-image: linear-gradient(to right, #0F2027, #2C5364);
+  height: 190px;
+  width: 50%;
+  max-width: 600px;
+  min-width: 400px;
+  border-radius: 7px;
+  display: block;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: clamp(25px, 2vw, 30px) auto 2vw auto;
+  color: white;
+  transition: 0.1s;
+}
+
+.mission-card:hover {
+  filter: brightness(1.5);
+}
+
+.mission-card:active {
+  filter: brightness(2);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

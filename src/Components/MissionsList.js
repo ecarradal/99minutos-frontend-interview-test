@@ -1,18 +1,18 @@
 import React from 'react'
-import MissionCard from './MissionsList'
+import MissionCard from './MissionCard'
+import '../Styles/MissionCard.css'
 
-const MissionsList = ({exercises}) => (
+const MissionsList = ({missions}) => (
   <>
     {
-      exercises.map((mission) => {
+      missions.map((mission) => {
         return (
-          <MissionCard
-          mission={mission}
-          />
+            <MissionCard mission={mission} key={mission.mission_name} />
         )
       })
     }
   </>
 )
+
 
 export default MissionsList

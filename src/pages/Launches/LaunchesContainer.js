@@ -1,7 +1,8 @@
 import React from 'react'
 import { useQuery, gql } from '@apollo/client';
 import Constants from '../../Constants'
-import Launches from './LaunchesContainer'
+import Launches from './Launches'
+import MainTitle from '../../Components/MainTitle'
 
 const LAST_LAUNCHES = gql`${Constants.LAST_LAUNCHES_QUERY}`
 
@@ -12,9 +13,13 @@ function LaunchesContainer() {
     return <p>Loading...</p>;
   if (error)
     return <p>Error :(</p>;
-
-  console.log('data :>> ', data);
-    // return <Launches data={data} />
+  if (data)
+    return (
+      <div>
+        <MainTitle />
+        <Launches missions={data} />
+      </div>
+    )
 
 }
 
