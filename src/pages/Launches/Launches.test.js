@@ -6,3 +6,9 @@ test('Project Setup Works', () => {
   const linkElement = screen.getByText(/Launches/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('Error: SpaceX API unreachable', () => {
+  render(<Launches />);
+  const linkElement = screen.getByText(/Error/i);
+  expect(linkElement).not.toBeInTheDocument()
+});
