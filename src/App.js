@@ -1,7 +1,7 @@
-import LaunchesContainer from './Pages/Launches/LaunchesContainer'
-import Mission from './Pages/Mission/Mission'
-import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom';
+import React from 'react'
+import Mission from './Pages/Mission/Mission'
+import LaunchesContainer from './Pages/Launches/LaunchesContainer'
 
 const AppRouting = () => (
   <>

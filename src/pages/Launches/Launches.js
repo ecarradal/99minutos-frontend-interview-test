@@ -1,5 +1,5 @@
-import React from 'react'
 import MissionsList from '../../Components/MissionsList'
+import React from 'react'
 
 const Launches = ({missions}) => (
   <>

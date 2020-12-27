@@ -1,5 +1,5 @@
-import React from 'react'
 import '../Styles/MissionCard.css'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 const MissionCard = ({ mission }) => (

@@ -1,5 +1,5 @@
-import React from 'react'
 import '../Styles/MainTitle.css'
+import React from 'react'
 
 const MainTitle = () => (
   <div className="main-title">

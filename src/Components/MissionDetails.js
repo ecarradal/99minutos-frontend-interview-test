@@ -1,5 +1,5 @@
-import React from 'react'
 import '../Styles/MissionDetails.css'
+import React from 'react'
 import SeeMoreButton from './SeeMoreButton'
 
 const MissionDetails = ({mission}) => (

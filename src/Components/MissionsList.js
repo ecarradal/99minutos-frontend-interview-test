@@ -1,6 +1,6 @@
-import React from 'react'
-import MissionCard from './MissionCard'
 import '../Styles/MissionCard.css'
+import MissionCard from './MissionCard'
+import React from 'react'
 
 const MissionsList = ({missions}) => (
   <>
