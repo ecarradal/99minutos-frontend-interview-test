@@ -50,9 +50,9 @@ node -v
 
 ## APP Screen Shots
 
-![Main Page](./Statics/Images/main-page.png)
+![Main Page](./src/Statics/Images/main-page.png)
 
-![Second Page](./Statics/Images/second-page.png)
+![Second Page](./src/Statics/Images/second-page.png)
 
 ## Technologies decision
 
